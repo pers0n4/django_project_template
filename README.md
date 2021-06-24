@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-`django-admin startproject --template=https://github.com/pers0n4/django_project_template/archive/refs/heads/main.zip project`
+`django-admin startproject --template=https://github.com/pers0n4/django_project_template/archive/refs/heads/main.zip project_name`
 
 ### Prerequisite
 
