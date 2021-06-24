@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     "debug_toolbar",
     "rest_framework",
     "corsheaders",
+    "users",
 ]
 
 MIDDLEWARE = [
@@ -110,6 +111,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+AUTH_USER_MODEL = "users.User"
 
 # Internationalization
 # https://docs.djangoproject.com/en/{{ docs_version }}/topics/i18n/
